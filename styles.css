@@ -4,8 +4,21 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color: black;
 }
 
 .page-title {
   font-family: 'Calligraffitti', cursive;
+}
+
+.dark-mode {
+  content: 'dark';
+  background-color: black;
+  color: white;
+}
+
+.toggle-button {
+  border-radius: 10%;
+  height: 30px;
 }
