@@ -8,12 +8,21 @@ body {
   color: black;
 }
 
+h2, p {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+
 .page-title {
   font-family: 'Calligraffitti', cursive;
+  margin-top: 10%;
 }
 
 .dark-mode {
-  content: 'dark';
   background-color: black;
   color: white;
 }
@@ -21,4 +30,8 @@ body {
 .toggle-button {
   border-radius: 10%;
   height: 30px;
+}
+
+.toggle-button-li {
+  list-style-type: none;
 }
