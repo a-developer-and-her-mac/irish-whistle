@@ -8,6 +8,10 @@ body {
   color: black;
 }
 
+p {
+  margin: 10%;
+}
+
 h2, p {
   text-align: center;
 }
