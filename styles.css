@@ -31,20 +31,6 @@ img {
   color: white;
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-      background: white;
-      color: black;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-      background: black;
-      color: white;
-  }
-}
-
 .toggle-button {
   background-color: black;
   color: white;
