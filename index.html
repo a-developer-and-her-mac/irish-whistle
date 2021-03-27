@@ -8,18 +8,22 @@
   <meta name='description' content='A site detailing info about Irish Whistles'>
   <link 
     href='styles.css' 
-    rel='stylesheet'>
-  <link 
-    rel='preconnect' 
-    href='https://fonts.gstatic.com'>
+    rel='stylesheet'
+  >
   <link 
     rel='stylesheet' 
     href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' 
     integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' 
-    crossorigin='anonymous'>
+    crossorigin='anonymous'
+  >
+  <link 
+    rel='preconnect' 
+    href='https://fonts.gstatic.com'
+  >
   <link 
     href='https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans&display=swap' 
-    rel='stylesheet'>  
+    rel='stylesheet'
+  >  
 </head>
 <body>
   <nav>
@@ -31,8 +35,60 @@
     <li class='toggle-button-li'>
       <button class='toggle-button' onclick='toggleMode()'>Theme</button>
     </li>
+      <button class="hamburger" id="hamburger">
+         <div class="hamburger-menu" id="hamburger-menu"></div>
+         <div class="hamburger-menu" id="hamburger-menu"></div>
+         <div class="hamburger-menu" id="hamburger-menu"></div> 
+      </button>
+       <ul role="menubar" class="navigation-list" id="navigation-list">
+         <li role="presentation">
+           <a
+             href="#section-0"
+             role="menuitem"
+             class="navigation-list__item"
+           >
+             Introduction
+           </a>
+         </li>
+         <li role="presentation">
+           <a 
+             href="#section-1" 
+             role="menuitem" 
+             class="navigation-list__item"
+           >
+             The Irish Flute
+           </a>
+         </li>
+         <li role="presentation">
+           <a 
+             href="#section-2" 
+             role="menuitem" 
+             class="navigation-list__item"
+           >
+             The Tin Whistle
+           </a>
+         </li>
+         <li role="presentation">
+           <a
+             href="#section-3"
+             role="menuitem"
+             class="navigation-list__item"
+           >
+             The Low Whistle
+           </a>
+         </li>
+         <li role="presentation">
+          <a
+            href="#section-4"
+            role="menuitem"
+            class="navigation-list__item"
+          >
+            End
+          </a>
+        </li>
+       </ul>
   </nav>
-   <h2 class='section-0'>
+   <h2 class='section-0' id="section-0">
     Introduction
    </h2>
   <p>
@@ -50,7 +106,7 @@
     
     the actual content. 
   </p>
-    <h2 class='section-1'>
+    <h2 class='section-1' id='section-1'>
     The Irish Flute
     </h2>
   <p>
@@ -103,7 +159,7 @@
     very often the two are mistaken for each other by uninformed people. 
     
   </p>
-    <h2 class='section-2'>
+    <h2 class='section-2' id='section-2'>
     The Tin Whistle
     </h2>
   <p>
@@ -135,7 +191,7 @@
     
     folk music. 
   </p>
-    <h2 class='section-3'>
+    <h2 class='section-3' id='section-3'>
     The Low Whistle
     </h2>
   <p>
@@ -168,7 +224,7 @@
     reels and hornpipes from the Irish, Scottish, Manx, Welsh and English traditions.'
     
   </p>
-   <h2 class='section-4'>
+   <h2 class='section-4' id='section-4'>
     End
    </h2>
   <p>
@@ -183,7 +239,8 @@
   <section class='footnotes'>
     <a 
       href='https://en.wikipedia.org/wiki/Irish_flute' 
-      class='links'>
+      class='links'
+    >
       Irish Flute
     </a>
     <a 
@@ -199,9 +256,6 @@
       Low Whistle
     </a>
   </section>
-  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
-  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
   <script src='script.js'></script>
 </body>
 </html>

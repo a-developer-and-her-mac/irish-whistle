@@ -21,6 +21,10 @@ img {
   width: auto;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .page-title {
   font-family: 'Calligraffitti', cursive;
   margin-top: 10%;
@@ -54,4 +58,53 @@ img {
 
 .links {
   margin: 7px;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger:hover, .hamburger:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.hamburger-menu {
+  width: 30px;
+  height: 3px;
+  background-color:black;
+  margin: 6px 0;
+}
+
+.hamburger-menu-light {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+
+@media screen and (max-width: 767px) {
+  .navigation-list {
+    display: none;
+    flex-direction: column;
+  }
+
+  .navigation-list.show {
+    display: flex;
+  }
+
+  .hamburger {
+   display: block;
+   margin-left: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-list {
+    display: none;
+  }
 }
